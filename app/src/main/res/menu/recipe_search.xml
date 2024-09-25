@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Name of file: recipe_search.xml -->
+<!-- Author:  Wenliang Jia -->
+<!-- Purpose: This xml file contains an item which will be used in search function -->
+<!-- Description:  An item is used as a part of search functions to filter all recipes -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_action"
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+</menu>
